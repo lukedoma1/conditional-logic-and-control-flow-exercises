@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_10();
+  exercise_20();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -282,7 +282,9 @@ function exercise_11() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  
+  let myNum = 7 % 2;
+
+  console.log(myNum);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -303,7 +305,12 @@ function exercise_12() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let myNum = 2 ** 3;
+
+  let myNumTwo = 11 ** 3.5;
+
+  console.log("first: " + myNum);
+  console.log("second: " + myNumTwo);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -324,7 +331,12 @@ function exercise_13() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let myVar = 5;
+  myVar++;
+  console.log(myVar);
+  myVar--;
+  myVar--;
+  console.log(myVar);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -344,7 +356,11 @@ function exercise_14() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let score = 22;
+  score+= 14;
+  console.log(score);
+  score-= 7;
+  console.log(score);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -368,7 +384,13 @@ function exercise_15() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let savings = 501;
+  savings *= 1.08;
+  console.log(savings);
+
+  savings /= .5;
+
+  console.log(savings);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -387,7 +409,13 @@ function exercise_16() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let myString = "";
+
+  if(myString){
+
+  }else{
+    console.log("An empty string is falsy");
+  }
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -409,7 +437,12 @@ function exercise_17() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let myString = "false";
+  if (myString){
+    console.log("the string is not falsy");
+  }else{
+    console.log("the string is falsy");
+  }
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -430,7 +463,11 @@ function exercise_18() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let myObj = new Object();
+
+  let obj2 = myObj;
+
+  console.log(myObj === obj2);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -450,7 +487,8 @@ function exercise_19() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  console.log(undefined == null);
+  console.log(undefined === null);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -472,7 +510,23 @@ function exercise_20() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let fruitColor = "yellow";
+
+  switch (fruitColor){
+
+    case "red":
+      console.log("apple")
+      break;
+
+    case "yellow":
+      console.log("banana");
+      break;
+    
+    default:
+      console.log("Unknown fruit");
+
+  }
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
